@@ -48,16 +48,20 @@ The same infrastructure from the penetration testing lab was reused.
 # Setup Evidence
 
 - Wazuh all-in-one successfully installed on Kali
-  - <img width="1920" height="1080" alt="wazuh_user_access" src="https://github.com/user-attachments/assets/3805c9e7-2d0c-4d0b-a08e-5a369ca26fc6" />
+  - <img width="1920" height="1080" alt="wazuh_user_access" src="https://github.com/user-attachments/assets/ed947c13-0049-4b92-83f6-9656b7a4400a" />
+
 
 - Domain Controller successfully registered as an active Wazuh agent
-  - <img width="1918" height="748" alt="wazuh_successfully_added_server2019" src="https://github.com/user-attachments/assets/d56576d6-6b07-49c7-b4c2-05597f4b93b9" />
+  - <img width="1918" height="748" alt="wazuh_successfully_added_server2019" src="https://github.com/user-attachments/assets/480923ed-b255-4879-95bc-817407d803f6" />
+
 
 - Sysmon installed
-  - <img width="851" height="580" alt="wazuh_sysmon_installation" src="https://github.com/user-attachments/assets/9b922085-f3fc-4ab3-8294-53bd10254655" />
+  - <img width="851" height="580" alt="wazuh_sysmon_installation" src="https://github.com/user-attachments/assets/f14aa4b2-74d6-47cc-b900-b5b74650d021" />
+
 
 - Required Windows audit policies enabled
-  - <img width="951" height="386" alt="wazuh_enabling_audit_policies_explicitly" src="https://github.com/user-attachments/assets/903cebc3-0ff4-4a34-bd3d-63ac58c3a09b" />
+  - <img width="951" height="386" alt="wazuh_enabling_audit_policies_explicitly" src="https://github.com/user-attachments/assets/48c7d2e5-2363-477e-9aed-7a1e41086dad" />
+
 
 
 ---
@@ -96,7 +100,8 @@ The same infrastructure from the penetration testing lab was reused.
 Rule screenshot:
 
 
-<img width="1920" height="1080" alt="wazuh_rules_kerberoasting" src="https://github.com/user-attachments/assets/1c3fafcd-3856-40ec-8488-c3e52386b78f" />
+<img width="1920" height="1080" alt="wazuh_rules_kerberoasting" src="https://github.com/user-attachments/assets/4b1521ed-d591-43fa-a11f-3cef125e0126" />
+
 
 
 
@@ -110,8 +115,8 @@ impacket-GetUserSPNs corp.local/sony \
 
 Evidence:
 
+<img width="1920" height="1080" alt="wazuh_attack_kerberoasting" src="https://github.com/user-attachments/assets/9a83d9da-f322-44a5-a4ec-96c98bc06dd3" />
 
-<img width="1920" height="1080" alt="wazuh_attack_kerberoasting" src="https://github.com/user-attachments/assets/2973442e-fbb7-4c44-86f0-f646e53cb00d" />
 
 
 
@@ -126,9 +131,11 @@ The custom rule triggered successfully.
 
 Evidence:
 
-- <img width="1920" height="1080" alt="wazuh_attack_kerberoasting_captured" src="https://github.com/user-attachments/assets/ece1bdbc-d4e5-48b6-b1b5-be7d81d02a1b" />
+- <img width="1920" height="1080" alt="wazuh_attack_kerberoasting_captured" src="https://github.com/user-attachments/assets/51ae26f9-1a79-4ff0-a45e-57fd28693cce" />
 
-- <img width="1920" height="1080" alt="wazuh_attack_kerberoasting_queried" src="https://github.com/user-attachments/assets/17ac54ed-f622-4acf-b1af-de2557b6ffd1" />
+
+- <img width="1920" height="1080" alt="wazuh_attack_kerberoasting_queried" src="https://github.com/user-attachments/assets/36686ffa-9ed7-43d8-b07b-dfe08b3a7ccf" />
+
 
 
 ---
@@ -154,7 +161,8 @@ Evidence:
 Rule screenshot:
 
 
-<img width="1920" height="1080" alt="wazuh_rules_as_rep" src="https://github.com/user-attachments/assets/2a3ce4a2-1136-47b0-9885-9c3bf8aa1a1f" />
+<img width="1920" height="1080" alt="wazuh_rules_as_rep" src="https://github.com/user-attachments/assets/4c938f84-daa9-447d-8020-92dbd00d8dae" />
+
 
 
 
@@ -170,7 +178,8 @@ impacket-GetNPUsers corp.local/ \
 Evidence:
 
 
-<img width="1920" height="1080" alt="wazuh_attack_as_rep" src="https://github.com/user-attachments/assets/e36d2196-1776-4228-9bfd-da70f3f57072" />
+<img width="1920" height="1080" alt="wazuh_attack_as_rep" src="https://github.com/user-attachments/assets/3bfdfe0b-17d8-4466-9a0e-846239a646b8" />
+
 
 
 
@@ -185,7 +194,8 @@ The alert fired successfully.
 Evidence:
 
 
-<img width="1920" height="1080" alt="wazuh_attack_as_rep_queried" src="https://github.com/user-attachments/assets/256b98c4-f36a-4656-baf0-3e9df82ed013" />
+<img width="1920" height="1080" alt="wazuh_attack_as_rep_queried" src="https://github.com/user-attachments/assets/761037fc-7475-4703-aec2-c4ae545575b4" />
+
 
 
 
@@ -213,9 +223,11 @@ VirTool:Win32/RemoteExec!pz
 
 Evidence:
 
-- <img width="996" height="730" alt="wazuh_attack_remote_exec_captured_default_defender" src="https://github.com/user-attachments/assets/5b738468-7215-4e68-87ab-b3e350b09202" />
+- <img width="996" height="730" alt="wazuh_attack_remote_exec_captured_default_defender" src="https://github.com/user-attachments/assets/693b436b-c9f7-4f15-8b12-18a7e3bf8184" />
 
-- <img width="1920" height="1080" alt="wazuh_attack_remote_exec_error" src="https://github.com/user-attachments/assets/78cbd13f-0689-4376-a37d-3efaf9776dbe" />
+
+- <img width="1920" height="1080" alt="wazuh_attack_remote_exec_error" src="https://github.com/user-attachments/assets/14bd4d95-15a2-4459-a56b-5835a663f893" />
+
 
 
 
@@ -230,7 +242,8 @@ Set-MpPreference -DisableRealtimeMonitoring $true
 Evidence:
 
 
-<img width="600" height="117" alt="wazuh_disabling_realTimeMonitoring" src="https://github.com/user-attachments/assets/a58bd602-79cc-442e-a4f7-b1ce5213937a" />
+<img width="600" height="117" alt="wazuh_disabling_realTimeMonitoring" src="https://github.com/user-attachments/assets/5d6aae99-e641-439d-966a-20dbce33d749" />
+
 
 
 This was performed **only** for detection validation within the lab.
@@ -252,7 +265,8 @@ MITRE Mapping:
 Evidence:
 
 
-<img width="1920" height="1080" alt="wazuh_attack_remote_exec_default_rule_alert" src="https://github.com/user-attachments/assets/165616d2-b5ae-4f20-a506-230217f80e32" />
+<img width="1920" height="1080" alt="wazuh_attack_remote_exec_default_rule_alert" src="https://github.com/user-attachments/assets/33c388ff-1078-479b-8b3d-2502075c160e" />
+
 
 
 
@@ -289,7 +303,8 @@ Evidence:
 Rule screenshot:
 
 
-<img width="861" height="255" alt="wazuh_rules_admin_previlege" src="https://github.com/user-attachments/assets/02bfa01a-7458-4bdb-9c71-8310c34cefed" />
+<img width="861" height="255" alt="wazuh_rules_admin_previlege" src="https://github.com/user-attachments/assets/f3dd0762-7123-4127-8f50-f7309f94a77f" />
+
 
 
 ## Attack
@@ -306,7 +321,8 @@ Add-ADGroupMember -Identity "Domain Admins" `
 Evidence:
 
 
-<img width="847" height="407" alt="wazuh_removed_svc_sql_admin_access_added_again" src="https://github.com/user-attachments/assets/d95d68fe-e074-4ba9-847a-56da628fc265" />
+<img width="847" height="407" alt="wazuh_removed_svc_sql_admin_access_added_again" src="https://github.com/user-attachments/assets/2c2b1e5e-42ef-42c9-aa7d-576c9157300e" />
+
 
 
 ## Detection
@@ -320,7 +336,8 @@ The alert fired successfully.
 Evidence:
 
 
-<img width="1920" height="1080" alt="wazuh_attack_admin_previlege_alert" src="https://github.com/user-attachments/assets/e4f5b558-7b1f-4819-861d-f3f50d1d5f0e" />
+<img width="1920" height="1080" alt="wazuh_attack_admin_previlege_alert" src="https://github.com/user-attachments/assets/54d6c494-b2e0-4750-8462-138a0ade5f30" />
+
 
 ---
 
@@ -336,7 +353,8 @@ Wazuh's Vulnerability Detection module also identified a large number of vulnera
 
 Evidence:
 
-<img width="1920" height="1080" alt="wazuh_dashboard_alerts" src="https://github.com/user-attachments/assets/ed18acc3-55a6-4624-a40a-63576e8b418a" />
+<img width="1920" height="1080" alt="wazuh_dashboard_alerts" src="https://github.com/user-attachments/assets/141ac8f5-2e19-40a2-a77d-9f6625bdd0d2" />
+
 
 
 Although not directly related to the attack simulations, these findings reinforce that the environment presents a significant attack surface due to missing security updates.

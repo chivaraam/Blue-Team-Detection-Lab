@@ -375,3 +375,10 @@ Each detection was validated through:
 - Re-execution of the attack
 - Successful alert generation
 - MITRE ATT&CK mapping
+
+
+## Prerequisite Project
+
+This project builds upon my Active Directory penetration testing lab, where the attack techniques validated in this repository were originally executed.
+
+➡️ [Internal Active Directory Penetration Testing Lab](https://github.com/chivaraam/Internal-Active-Directory-Penetration-Testing-Lab)
